@@ -1,0 +1,18 @@
+{
+  "cluster_id": "classroom-lan",
+  "node_id": "n1",
+  "bind_host": "0.0.0.0",
+  "bind_port": 5001,
+  "members": {
+    "n1": "http://192.168.1.11:5001",
+    "n2": "http://192.168.1.12:5001",
+    "n3": "http://192.168.1.13:5001"
+  },
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "ddb_node_1",
+    "user": "ddb_demo",
+    "password_env": "DDB_MYSQL_PASSWORD"
+  }
+}

@@ -1,9 +1,0 @@
-.env
-.git
-.venv
-venv
-__pycache__
-*.pyc
-*.log
-database_information.json*
-master_state.json*
