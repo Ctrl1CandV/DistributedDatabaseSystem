@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+database_information.json
+database_information.json.tmp
+master_state.json
+master_state.json.tmp
+*.log
